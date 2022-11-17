@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-background: hsl(0, 0%, 100%);
+  --secondary-background: hsl(212, 45%, 89%);
+  --primary-text: hsl(218, 44%, 22%);
+  --secondary-text: hsl(220, 15%, 55%);
+  --fs: 15px;
+  --ff: "Outfit", sans-serif;
+  --fw-reg: 400;
+  --fw-bold: 700;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--secondary-background);
+  font-family: var(--ff);
+  font-size: var(--fs);
+  text-align: center;
+}
+.container {
+  width: 320px;
+  height: 497px;
+  background-color: var(--primary-background);
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+}
+img {
+  width: 288px;
+  height: 288px;
+  margin: 16px;
+  border-radius: 10px;
+}
+.text {
+  margin: 8px 16px 24px 16px;
+}
+h1 {
+  font-weight: var(--fw-bold);
+  font-size: 22px;
+  line-height: 28px;
+  color: var(--primary-text);
+}
+p {
+  padding: 16px;
+  font-weight: var(--fw-reg);
+  line-height: 19px;
+  letter-spacing: 0.1875px;
+  color: var(--secondary-text);
+}
